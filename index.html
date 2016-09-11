@@ -20,3 +20,19 @@ layout: default
 		{% endfor %}
 	</div>
 </div>
+
+<div class="projects">
+	<h1 class="projects__title">Our Projects:</h1>
+	<ul class="projects__list">
+        {% for project in site.data.projects %}
+        <li>
+            <a href="{{ project.url }}">{{ project.title }}</a>
+            <p>{{ project.description }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<script type="text/javascript">
+	console.log('UNLIMITED POWAHHHH');
+</script>

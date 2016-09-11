@@ -81,6 +81,7 @@ ul {
 }
 
 .events {
+	padding-bottom: 36px;
 	&__title {
 		margin-bottom: 16px;
 		font-size: 1.4em;
@@ -99,6 +100,29 @@ ul {
 		}
 		a:hover {
 			text-decoration: underline;
+		}
+	}
+}
+
+.projects {
+	padding-bottom: 48px;
+	&__title {
+		margin-bottom: 16px;
+		font-size: 1.4em;
+	}
+	&__list {
+		ul {
+			
+		}
+		li {
+			margin: 8px 0;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		p {
+			margin-top: 4px;
+			font-size: 0.8em;
 		}
 	}
 }

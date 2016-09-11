@@ -2,45 +2,45 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    {% if page.title %}
-        <title>{{ page.title }}</title>
-    {% else %}
-        <title>{{ site.name }}</title>
-    {% endif %}
+	{% if page.title %}
+		<title>{{ page.title }}</title>
+	{% else %}
+		<title>{{ site.name }}</title>
+	{% endif %}
 
-    <meta name="description" content="{{ site.description }}">
+	<meta name="description" content="{{ site.description }}">
 
-    {% if site.google_verification %}
-        <meta name="google-site-verification" content="{{ site.google_verify }}">
-    {% endif %}
+	{% if site.google_verification %}
+		<meta name="google-site-verification" content="{{ site.google_verify }}">
+	{% endif %}
 
-    <link rel="icon" href="/assets/img/favicon.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+	<link rel="icon" href="/assets/img/favicon.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
+	<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 </head>
 
 <body>
 
-    <div class="wrapper">
-        <div class="header">
-            <h1 class="header__title">
-                <a href="/">{{ site.name }}</a>
-            </h1>
-            <p class="header__slogan">{{ site.description }}</p>
-            <ul class="header__links">
-                {% for link in site.data.links %}
-                <li>
-                    <a href="{{ link.url }}">{{ link.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        {{ content }}
-    </div>
+	<div class="wrapper">
+		<div class="header">
+			<h1 class="header__title">
+				<a href="/">{{ site.name }}</a>
+			</h1>
+			<p class="header__slogan">{{ site.description }}</p>
+			<ul class="header__links">
+				{% for link in site.data.links %}
+				<li>
+					<a href="{{ link.url }}">{{ link.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+		{{ content }}
+	</div>
 
 </body>
 
