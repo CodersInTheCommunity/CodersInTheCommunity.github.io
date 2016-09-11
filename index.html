@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="events">
+	<h1 class="events__title">Upcoming Events:</h1>
+	<div class="events__list">
+		{% for event in site.posts reversed%}
+			{% assign currentdate = event.date | date: "%Y" %}
+			{% if currentdate != date %}
+				{% unless forloop.first %}</ul>{% endunless %}
+				<h1>{{ currentdate }}</h1>
+				<ul>
+				{% assign date = currentdate %}
+			{% endif %}
+				<li>
+					<span class="date">{{ event.date | date: '%a, %b %d' }}: </span> <a href="{{ event.url }}">{{ event.title }}</a>
+				</li>
+			{% if forloop.last %}</ul>{% endif %}
+		{% endfor %}
+	</div>
+</div>

@@ -1,0 +1,104 @@
+---
+---
+
+@import "normalize";
+@import "config";
+
+body {
+	background: $color-white;
+	color: $color-black;
+	font-family: 'Inconsolata', ;
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1, h2 {
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+a {
+ 	color: $color-link;
+ 	text-decoration: none;
+ 	&:visited {
+		color: $color-link;
+		text-decoration: none;
+ 	}
+ 	&:hover {
+		color: $color-link;
+		text-decoration: none;
+ 	}
+ 	&:active {
+		color: $color-link;
+		text-decoration: none;
+ 	}
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.wrapper {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 60px 30px;
+}
+
+.header {
+	text-align: center;
+	padding-bottom: 48px;
+	&__title {
+		font-size: 2em;
+		a {
+			color: $color-black;
+		}
+		@media screen and (max-width: $break-mobile) {
+			font-size: 1.6em;
+		}
+	}
+	&__slogan {
+		font-size: 0.8em;
+		margin: 8px 0;
+		@media screen and (max-width: $break-mobile) {
+			font-size: 0.7em;
+		}
+	}
+	&__links {
+		li {
+			display: inline;
+			font-size: 0.8em;
+		}
+		a {
+			padding: 2px 4px;
+			border-radius: 2px;
+			&:hover {
+				background: $color-grey;
+			}
+		}
+	}
+}
+
+.events {
+	&__title {
+		margin-bottom: 16px;
+		font-size: 1.4em;
+	}
+	&__list {
+		h1 {
+			margin: 12px 0;
+			font-size: 1.2em;
+			font-weight: 700;
+		}
+		ul {
+			
+		}
+		li {
+			margin: 8px 0;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+}

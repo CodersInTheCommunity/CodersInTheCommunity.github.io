@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="event">
+    <div class="event__title">
+    	<h1>{{ page.title }}</h1>
+    </div>
+    <div class="event__date">
+    	<p>{{ page.date | date: '%B %-d, %Y' }}</p>
+    </div>
+    <div class="event__meta">
+    	<p>{{ tags_content }}</p>
+    </div>
+    <div class="event__content"?>
+        {{ content }}
+    </div>
+    <div class="event__home"?>
+        <a href="/"><-- home</a>
+    </div>
+</div>
