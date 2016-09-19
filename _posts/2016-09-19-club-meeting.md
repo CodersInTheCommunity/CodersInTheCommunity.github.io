@@ -1,0 +1,7 @@
+---
+layout: event
+title: Club Meeting
+---
+
+Coders in the Community is meeting in Mr. Yonemitsu's room 3210 on Monday after school until 2:45. We invite you to also attend Knowledge Bowl right after Coders in the Community club.
+Expecting a real good turn out this week.             
