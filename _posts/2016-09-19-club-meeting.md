@@ -7,6 +7,6 @@ Coders in the Community is meeting in Mr. Yonemitsu's room 3210 on Monday after 
 Expecting a real good turn out this week.
 UPDATE: We had an excellent turn out this week. 
 Congtatulations to the following new members of the club:
-Bryan Fang
-Joey Cook
+Bryan Fang,
+Joey Cook, and
 Gabriel Sams
