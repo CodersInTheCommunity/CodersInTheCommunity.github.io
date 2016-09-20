@@ -4,4 +4,9 @@ title: Club Meeting
 ---
 
 Coders in the Community is meeting in Mr. Yonemitsu's room 3210 on Monday after school until 2:45. We invite you to also attend Knowledge Bowl right after Coders in the Community club.
-Expecting a real good turn out this week.             
+Expecting a real good turn out this week.
+UPDATE: We had an excellent turn out this week. 
+Congtatulations to the following new members of the club:
+Bryan Fang
+Joey Cook
+Gabriel Sams
